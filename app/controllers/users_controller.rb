@@ -6,6 +6,7 @@ class UsersController < ApplicationController
   def index
     @users = User.all
   end
+  
   def the_game
   end
   # GET /users/1

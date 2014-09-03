@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
-  get 'static_pages/Home'
-
+  get 'users/the_game' => "users#the_game"
+  get 'the_game' => "users#the_game"
   resources :users
   
-  get 'users/the_game' => "users#the_game"
 
 
   # The priority is based upon order of creation: first created -> highest priority.

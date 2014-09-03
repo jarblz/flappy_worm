@@ -1,14 +1,16 @@
+<% provide(:active,"landing") %>
    <div class="container theme-showcase" role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-        <h1>Flappy Worms Abound!</h1>
-        <p>This is not you're older brothers Earthworm Jim</p>
-        <p>Flappy Worm is a jump and dodge platforming video game developed by Steve Company, featuring an earthworm who battles evil. This heavily anticipated game is set to arrive on PC and most consoles this April!
+          <div class="col-lg-4">
+          <img class="cover-image" src="/assets/ej.jpg">
+          </div>
+          <div class="col-lg-8"><h2>Slow. Soggy. Worms.</h2>
+          <p>Flappy Worm is a jump and dodge platforming video game developed by Steve Company, featuring an earthworm who battles evil. This heavily anticipated game is set to arrive on PC and most consoles this April!</p>
+          </div>
       </div>
-<%=image_tag('ej.jpg', :class=> 'center-image')%>
+      <span class='form'><%= render 'form' %></span>
 
-<span class='form'><%= render 'form' %></span>
-
-<%= link_to 'Back', users_path %>
-</div>
+      <%= link_to 'Back', users_path %>
+    </div>

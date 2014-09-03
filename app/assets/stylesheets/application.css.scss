@@ -18,12 +18,12 @@
 .form{
 float:left;
 }
-.center-image{
-	float:right;
-	display:inline-block;
-	height:200px;
-	width:400px;
+.jumbotron{
+	background-color:#336699;
 }
-.container .theme-showcase{
-	background-image: "ej.jpg"
+.cover-image{
+	height:100px;
+	width:200px;
+	border-radius: 20px
+
 }
